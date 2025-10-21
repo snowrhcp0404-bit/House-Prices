@@ -26,7 +26,8 @@
 ### 🧮 2. 特徴量エンジニアリング
 - 対数変換 (`log1p`)
 - モデル重要度が高く、歪度と尖度の高い上位特徴量の対数変換
-- カテゴリ×カテゴリ / カテゴリ×面積の交互作用特徴量、面積比や比率系特徴量作成（’1stFlrSF_ratio’, Per_GLA_Glなど）
+- カテゴリ×カテゴリ / カテゴリ×面積の交互作用特徴量
+- 面積比や比率系特徴量作成（’1stFlrSF_ratio’, Per_GLA_Glなど）
 - 二値化（’MiscVal_binary’,’Has3SsnPorch’など）
 - Yeo-johnson変換（’BsmtFinSF1_yeo’） 
 - 分布差が大きい変数の削除（train/test drift対策）
